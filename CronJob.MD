@@ -9,10 +9,10 @@ Min  Hour Day  Mon  Weekday
 └─────────────────────  Minute        (0..59)
 
 Field 	      Range 	  Special characters
-Minute 	      0 - 59 	  , - * /
-Hour 	        0 - 23 	  , - * /
-Day of Month 	1 - 31 	  , - * ? / L W
-Month 	      1 - 12 	  , - * /
-Day of Week 	0 - 6 	  , - * ? / L #
+Minute        0 - 59 	  , - * /
+Hour          0 - 23 	  , - * /
+Day of Month  1 - 31 	  , - * ? / L W
+Month         1 - 12 	  , - * /
+Day of Week   0 - 6 	  , - * ? / L #
 
 ```

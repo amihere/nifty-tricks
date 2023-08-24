@@ -1,3 +1,4 @@
+```
 Min  Hour Day  Mon  Weekday
 
 ┬    ┬    ┬    ┬    ┬
@@ -6,3 +7,4 @@ Min  Hour Day  Mon  Weekday
 │    │    └───────────  Day of Month  (1..31)
 │    └────────────────  Hour          (0..23)
 └─────────────────────  Minute        (0..59)
+```

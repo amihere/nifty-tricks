@@ -1,3 +1,10 @@
+# Mac terminal
+
+# Find all applications listening for TCP traffic and their ports* <br>
+listening_apps() {
+    lsof -iTCP -sTCP:LISTEN -P -n
+}
+
 # Git stuff
 
 # Call the function to display how long ago the repository was last updated

@@ -33,3 +33,13 @@ show_dependency_tree() {
     mvn dependency:tree
 }
 
+gitignore_java() {
+    cat > .gitignore << EOM
+    target/
+    pom.xml.*
+    release.properties
+    
+    *.iml
+    .idea/
+    EOM
+}
